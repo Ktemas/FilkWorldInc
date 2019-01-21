@@ -563,7 +563,7 @@ BOARD_SHOP_EN: 'Shop'
 BOARD_GROUP_EN: 'VK Project group'
 
 COMMAND_LOBBY_EN: '§eЧтобы выйти в лобби воспользуйтесь §c/lobby'
-ERROR_COMMAND_EN: '§cОшибка, пишите %s'
+ERROR_COMMAND_EN: '§cError, write %s'
 
 VERIFY_ALERT_EN: '§cПодтвердите свой аккаунт -> /ktemverify <код>'
 VERIFY_SUCCESS_EN: '§6Verify §8| §fВы подтвердили свой аккаунт, данные обновлены'
@@ -592,7 +592,7 @@ MUTE_FORMAT_RU: '/mute <ник> <время/e> <причина>'
 UNBAN_FORMAT_RU: '/unban <ник>'
 UNBANIP_FORMAT_RU: '/unbanip <ip>'
 UNMUTE_FORMAAT_RU: '/unmute <ник>'
-KICK_FORMAT_RU: '/kick <ник>'
+KICK_FORMAT_RU: '/kick <ник> <причина>'
 KTEMVINF_FORMAT_RU: '/ktemvinf <ник>'
 SKIN_FORMAT_RU: '/skin <ник со скином/clear>'
 SERVER_FORMAT_RU: '/server <сервер>'
@@ -618,7 +618,7 @@ MUTE_FORMAT_EN: '/mute <nickname> <time/e> <reason>'
 UNBAN_FORMAT_EN: '/unban <nickname>'
 UNBANIP_FORMAT_EN: '/unbanip <ip>'
 UNMUTE_FORMAAT_EN: '/unmute <nickname>'
-KICK_FORMAT_EN: '/kick <nickname>'
+KICK_FORMAT_EN: '/kick <nickname> <reason>'
 KTEMVINF_FORMAT_EN: '/ktemvinf <nickname>'
 SKIN_FORMAT_EN: '/skin <premium nickname/clear>'
 SERVER_FORMAT_EN: '/server <server>'
@@ -675,7 +675,7 @@ KTEM_ERROR_EN: §6Ktem §8| §fВаше сообщение должено сод
 
 
 HELP_PAPER_FOR_RU: '§e▸ Подкоманды для %s:'
-HELP_PAPER_FOR_EN: '§e▸ Подкоманды для %s:'
+HELP_PAPER_FOR_EN: '§e▸ Sub commands for %s:'
 
 DELAY_ON_RU: '§aВключена'
 DELAY_OFF_RU: '§cОтключена'
@@ -949,8 +949,8 @@ PARTY_WARP_RU: '§6Party §8| §fВсе онлайн -участники был�
 PARTY_WARP_OWNER_RU: '§6Party §8| §fТелепортировать участников на свой сервер может только лидер группы'
 
 PARTY_PUBLIC_RU: 'публичность'
-PARTY_INVITE_RU: 'приглашения'
-PARTY_AUTOKICK_RU: 'авто -исключение'
+PARTY_SETTING_INVITE_RU: 'приглашения'
+PARTY_AUTOKICK_RU: 'авто-исключение'
 PARTY_SETTING_FORMAT_RU: '/party setting <настройка> <true/false>'
 PARTY_SETTING_ALREADY_RU: '§cОшибка, значение данной настройки уже является указанным'
 PARTY_SETTING_ALERT_RU: '§6Party §8| %s §fобновил значение настройки §a%s§f в группе'
@@ -1279,8 +1279,8 @@ PARTY_WARP_EN: '§6Party §8| §fВсе онлайн -участники был�
 PARTY_WARP_OWNER_EN: '§6Party §8| §fТелепортировать участников на свой сервер может только лидер группы'
 
 PARTY_PUBLIC_EN: 'публичность'
-PARTY_INVITE_EN: 'приглашения'
-PARTY_AUTOKICK_EN: 'авто -исключение'
+PARTY_SETTING_INVITE_EN: 'приглашения'
+PARTY_AUTOKICK_EN: 'авто-исключение'
 PARTY_SETTING_FORMAT_EN: '/party setting <настройка> <true/false>'
 PARTY_SETTING_ALREADY_EN: '§cОшибка, значение данной настройки уже является указанным'
 PARTY_SETTING_ALERT_EN: '§6Party §8| %s §fобновил значение настройки §a%s§f в группе'
@@ -2199,7 +2199,7 @@ ASK_LIMIT_EN: '§6Вопросы §8| §fВаш вопрос должен сод
 ASK_DELAY_NEW_EN: '§cОшибка, отправить новый вопрос можно будет через %s'
 
 ANS_SENT_EN: '§6Ответы §8| §fВы ответили игроку %s'
-ANS_HOVER_RU: '§7На вопрос: §a%s\n\n§fНажмите чтобы написать,\nсообщение игроку %s'
+ANS_HOVER_EN: '§7На вопрос: §a%s\n\n§fНажмите чтобы написать,\nсообщение игроку %s'
 ANS_MSG_EN: |-
  §6Вопросы §8| §fНа Ваш вопрос %s %s
   §a• §fСообщение: §e%s
