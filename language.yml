@@ -2436,29 +2436,29 @@ SPY_OFF_EN: '§6Spy §8| §fВы больше не следите за кома�
 SPY_ALREADY_OFF_EN: '§cУ вас уже отключена слежка'
 
 
-HUBS_ALREADY_EN: '§cYou are already in the main lobby'
+HUBS_ALREADY_EN: '§cYou are already in hub'
 
-REDIRECT_EN: '§aYou've been teleported to %s'
+REDIRECT_EN: '§aYou were teleported to %s'
 
-MSG_FORMAT_EN: '/msg <nick> <message>'
-MSG_ME_EN: '§cYou can't write to yourself'
+MSG_FORMAT_EN: '/msg <player name> <message>'
+MSG_ME_EN: '§cYou can not contact yourself'
 MSG_INFORE_EN: '§cThis player added You to the ignore list'
 MSG_FRIENDS_ONLY_EN: '§cAccording to your privacy settings, you can only chat with friends'
-MSG_FRIENDS_EN: '§cMistake, this player accepts messages only from their friends'
-MSG_EN: '§6Private message §8| §6I §8-> %s §8| §7%s'
-MSG_ALERT_EN: '§6Private message §8| %s §8-> §6I §8| §7%s'
-MSG_DONATE_EN: '§6Private message §8| §6I §8-> %s §8| §f%s'
-MSG_ALERT_DONATE_EN: '§6Private message §8| %s §8-> §6I §8| §f%s'
+MSG_FRIENDS_EN: '§cError, this player accepts messages only from their friends'
+MSG_EN: '§6PM §8| §6I §8-> %s §8| §7%s'
+MSG_ALERT_EN: '§6PM §8| %s §8-> §6I §8| §7%s'
+MSG_DONATE_EN: '§6PM §8| §6I §8-> %s §8| §f%s'
+MSG_ALERT_DONATE_EN: '§6PM §8| %s §8-> §6I §8| §f%s'
 
-GLIST_EN: '§6Server §8| §fGeneral online §a%s'
-GLIST_SERVER_EN: '§6Server §8| §fThese online modes §a%s'
-GLIST_NOT_FOUND_EN: '§cError, the specified server was not found'
+GLIST_EN: '§6Server §8| §fTotal online §a%s'
+GLIST_SERVER_EN: '§6Server §8| §fTotal online of gamemode §a%s'
+GLIST_NOT_FOUND_EN: '§cError, current servers not found'
 
 REPLY_FORMAT_EN: '/reply <message>'
-REPLY_EMPTY_EN: '§cYou no one wrote'
+REPLY_EMPTY_EN: '§cNo one wrote to you'
 
 SEND_FORMAT_EN: '/send <server|player|all> <server2>'
-SEND_NOT_FOUND_EN: '§cError, the specified server does not exist'
+SEND_NOT_FOUND_EN: '§cError, current server not found'
 SEND_EN: '§6Server §8| §fYou teleported players'
 SEND_ALERT_EN: '§6Server §8| %s §fteleported you to server §c%s'
 
