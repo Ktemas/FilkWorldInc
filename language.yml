@@ -202,11 +202,21 @@ GUILD_JOIN_REQUESTS_EN: '§6Гильдии §8| §fУ вас §e%s §fнепри
 MAIL_JOIN_REQUESTS_EN: '§6Mail §8| §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
 MAIL_JOIN_HOVER_EN: "§fНажмите сюда,\n§fчтобы открыть список писем"
 
-NEWS_RU: 'Скоро'
+NEWS_RU: 'Новый скорборд'
+NEWS_BEDWARS_RU: 'Новый скорборд'
+NEWS_LUCKYWARS_RU: 'Новый скорборд'
+NEWS_SURVIVAL_RU: 'Новый скорборд'
+NEWS_PARKOUR_RU: 'Новый скорборд'
+NEWS_CREATIVE_RU: 'Новый скорборд'
 MSG_TITLE_RU: '§7Наш forum: §6forum.filkworld.cf'
 MSG_SUBTITLE_RU: '§7Группа: §cvk.com/filkworld'
 
-NEWS_EN: 'Скоро'
+NEWS_EN: 'New scoreboard'
+NEWS_BEDWARS_EN: 'New scoreboard'
+NEWS_LUCKYWARS_EN: 'New scoreboard'
+NEWS_SURVIVAL_EN: 'New scoreboard'
+NEWS_PARKOUR_EN: 'New scoreboard'
+NEWS_CREATIVE_EN: 'New scoreboard'
 MSG_TITLE_EN: '§7Наш forum: §6forum.filkworld.cf'
 MSG_SUBTITLE_EN: '§7Группа: §cvk.com/filkworld'
 
@@ -259,9 +269,10 @@ ITEM_TEST_LORE_EN:
  - '§7Test time %s'
 
 #Ru items
-ITEM_EXIT_NAME_RU: '§eВернутся в Lobby'
+ITEM_EXIT_NAME_RU: '§aНазад в главное лобби'
 ITEM_EXIT_LORE_RU:
- - '§7Нажмите, чтобы вернуться в лобби'
+ - '§7Используйте этот предмет,'
+ - '§7чтобы вернуться в главное лобби'
 ITEM_START_NAME_RU: '§eБыстрый старт'
 ITEM_START_LORE_RU:
  - '§7Удобная навигация по'
@@ -514,15 +525,18 @@ BOARD_LEVEL_RU: 'Уровень'
 BOARD_GOLD_RU: 'Золота'
 BOARD_GLOBAL_ONLINE_RU: 'Онлайн проекта'
 BOARD_TOTAL_WINS_RU: 'Всего побед'
-BOARD_TOTAL_BED_RU: 'Сломано кроватей'
+BOARD_TOTAL_BED_RU: 'кроватей'
 BOARD_TOTAL_KILLS_RU: 'Всего убийств'
 BOARD_TOTAL_GAMES_RU: 'Сыграно игр'
-BOARD_TOTAL_LUCKYBLOCKS_RU: 'Сломано лаки -блоков'
+BOARD_TOTAL_LUCKYBLOCKS_RU: 'лаки-блоков'
+BOARD_STATS_GAMEMODE_RU: 'Статистика '
+BOARD_STATS_GAMEMODE_2_RU: 'режима'
 BOARD_STATS_RU: 'Детальная статистика'
 BOARD_RANK_YOU_RU: 'Ваш ранг'
 BOARD_VK_RU: 'Вконтакте'
 BOARD_SHOP_RU: 'Магазин'
 BOARD_GROUP_RU: 'Группа проекта'
+BOARD_BREAK_RU: 'Сломано '
 
 BOARD_NEWS_EN: 'News'
 BOARD_PLAYERS_EN: 'Игроков'
@@ -549,18 +563,19 @@ BOARD_KTEMS_EN: 'Ktems'
 BOARD_BALANCE_EN: 'Balance'
 BOARD_LEVEL_EN: 'Level'
 BOARD_GOLD_EN: 'Golds'
-BOARD_GLOBAL_ONLINE_EN: 'Online '
+BOARD_GLOBAL_ONLINE_EN: 'Total online'
 BOARD_GROUP_EN: 'Ваш ранг'
 BOARD_TOTAL_WINS_EN: 'Total wins'
-BOARD_TOTAL_BED_EN: 'Broken beds'
+BOARD_TOTAL_BED_EN: 'beds'
 BOARD_TOTAL_KILLS_EN: 'Total kills'
 BOARD_TOTAL_GAMES_EN: 'They are going to play games'
-BOARD_TOTAL_LUCKYBLOCKS_EN: 'Broken lucky blocks'
+BOARD_TOTAL_LUCKYBLOCKS_EN: 'lucky blocks'
 BOARD_STATS_EN: 'Detailed statistics'
 BOARD_RANK_YOU_EN: 'Your rank'
 BOARD_VK_EN: 'VK'
 BOARD_SHOP_EN: 'Shop'
 BOARD_GROUP_EN: 'VK Project group'
+BOARD_BREAK_EN: 'Broken '
 
 COMMAND_LOBBY_EN: '§eЧтобы выйти в лобби воспользуйтесь §c/lobby'
 ERROR_COMMAND_EN: '§cError, write %s'
@@ -627,7 +642,7 @@ VERIFY_FORMAT_EN: '/verify <key>'
 PARTYCHAT_FORMAT_EN: '/pchat <message>'
 GUILDCHAT_FORMAT_EN: '/gchat <message>'
 IGNORE_FORMAT_EN: '/ignore <nickname>'
-HISTORY_FORMAT_RU: '/history <ник> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
+HISTORY_FORMAT_EN: '/history <nickname> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT_EN: '/test <String>'
 
 API_DELAY_RU: '§6API §8| §fГенерировать новый ключ доступа можно будет через %s'
@@ -866,17 +881,17 @@ CORE_WRONGKEY_RU: '§cОшибка, не верный ключ'
 CORE_REASON_WRONGKEY_RU: '§4Ошибка #14 §cВведен не верный ключ.'
 
 CORE_WHOIS_FORMAT_RU: '/ktemcore whois <ник>'
-CORE_WHOIS_RU:
- - '§eИнформация об игроке %s'
- - '§f- ID игрока: §a%s'
- - '§f- Привилегия: §a%s'
- - '§f- YouTube канал: §a%s'
- - '§f- Ктемов: §a%s'
- - '§f- Монет: §a%s'
- - '§f- Уровень игрока: §a%s'
- - '§f- Опыт игрока: §a%s'
- - '§f- Ключей: §a%s'
- - '§f- Проценты повышения: §a%s'
+CORE_WHOIS_YT_RU: '§f- YouTube канал: §a%s'
+CORE_WHOIS_KTEMXP_RU: '§f- Проценты повышения: §a%s'
+CORE_WHOIS_RU: |-
+ §eИнформация об игроке %s
+ §f- ID игрока: §a%s
+ §f- Привилегия: §a%s
+ §f- Ктемов: §a%s
+ §f- Монет: §a%s
+ §f- Уровень игрока: §a%s
+ §f- Опыт игрока: §a%s
+ §f- Ключей: §a%s
 
 CORE_ALREADY_ADMINISTRATOR_RU: '§cДанный игрок уже администратор'
 CORE_SETADMINISTRATOR_RU: '§eИгроку %s§e был установлен статус администратор'
@@ -1196,17 +1211,17 @@ CORE_WRONGKEY_EN: '§cОшибка, не верный ключ'
 CORE_REASON_WRONGKEY_EN: '§4Ошибка #14 §cВведен не верный ключ.'
 
 CORE_WHOIS_FORMAT_EN: '/ktemcore whois <ник>'
-CORE_WHOIS_EN:
- - '§eИнформация об игроке %s'
- - '§f- ID игрока: §a%s'
- - '§f- Привилегия: §a%s'
- - '§f- YouTube канал: §a%s'
- - '§f- Ктемов: §a%s'
- - '§f- Монет: §a%s'
- - '§f- Уровень игрока: §a%s'
- - '§f- Опыт игрока: §a%s'
- - '§f- Ключей: §a%s'
- - '§f- Проценты повышения: §a%s'
+CORE_WHOIS_YT_EN: '§f- YouTube канал: §a%s'
+CORE_WHOIS_KTEMXP_EN: '§f- Проценты повышения: §a%s'
+CORE_WHOIS_EN: |-
+ §eИнформация об игроке %s
+ §f- ID игрока: §a%s
+ §f- Привилегия: §a%s
+ §f- Ктемов: §a%s
+ §f- Монет: §a%s
+ §f- Уровень игрока: §a%s
+ §f- Опыт игрока: §a%s
+ §f- Ключей: §a%s
 
 CORE_ALREADY_ADMINISTRATOR_EN: '§cДанный игрок уже администратор'
 CORE_SETADMINISTRATOR_EN: '§eИгроку %s§e был установлен статус администратор'
