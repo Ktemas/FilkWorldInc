@@ -387,7 +387,7 @@ TRAINING_STAGE_5_HUBMESSAGE_EN: '§6Training §8| §fНапишите коман
 TRAINING_STAGE_5_HOVER_EN: '§fНажмите, чтобы написать команду /hub'
 
 #Stage 6
-TRAINING_STAGE_6_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу : -('
+TRAINING_STAGE_6_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу :-('
 TRAINING_STAGE_6_SUBTITLE_EN: '§fЕсли вы хотите узнать все доступные команды, используйте §5/+TAB'
 
 TRAINING_FIRST_TITLE_RU: '§fДобро пожаловать, %s'
@@ -464,7 +464,7 @@ TRAINING_STAGE_5_HUBMESSAGE_RU: '§6Training §8| §fНапишите коман
 TRAINING_STAGE_5_HOVER_RU: '§fНажмите, чтобы написать команду /hub'
 
 #Stage 6
-TRAINING_STAGE_6_TITLE_RU: '§fА на этом наше §6обучение§f подходит к концу : -('
+TRAINING_STAGE_6_TITLE_RU: '§fА на этом наше §6обучение§f подходит к концу :-('
 TRAINING_STAGE_6_SUBTITLE_RU: '§fЕсли вы хотите узнать все доступные команды, используйте §5/+TAB'
 
 
@@ -575,7 +575,7 @@ VERIFY_SESSION_REMOVE_EN: '§6Verify §8| §fСессия удалена'
 
 NO_PERMISSION_EN: '§cYou do not have permissions'
 NO_PERMISSION_GROUP_EN: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMISSION_ENDERMAN_ONLY_EN: '§cYou do not have permissions, this function is only for §7§lSHULKER'
+NO_PERMISSION_ENDERMAN_ONLY_EN: '§cYou do not have permissions, this function is only for §5§lENDERMAN'
 NO_PERMISSION_ONLY_EN: '§cYou do not have permissions, this function is only for %s'
 
 REPORT_FORMAT_RU: '/report <ник> <причина>'
@@ -1091,8 +1091,6 @@ MODERATION_BROADCAST_RU: '§cМодерация §8| %s §7%s'
 INFO_BROADCAST_RU: '§7%s'
 ANSWER_BROADCAST_RU: '§cМодерация §8| %s §7%s игроку %s §8(§a%s§8) §7 -> §e%s'
 NEW_ASK_RU: '§cМодерация §8| %s §7задал вопрос -> §e%s'
-FRIEND_JOINED: '§6Друзья §8| §f%s %s §f%s в игру §7(нажмите сюда)'
-FRIEND_JOINED_HOVER: '§fНажмите, чтобы написать %s %s §fсообщение'
 
 PARTY_NEW_INVITE_RU: '   %s §fпригласил вас в группу'
 PARTY_NEW_GUILD_INVITE_RU: ' %s §fпригласил вас в группу гильдии'
@@ -1105,8 +1103,7 @@ GUILD_TITLE_RU: 'ГИЛЬДИИ'
 INVITE_ACCEPT_BUTTON_RU: '          §a§l[ПРИНЯТЬ]'
 INVITE_DECLINE_BUTTON_RU: ' §c§l[ОТКЛОНИТЬ]'
 
-ASK_HOVER_RU: '§7Нажмите, чтобы ответить игроку'
-ANS_HOVER_RU: '§7На вопрос: §a%s'
+ASK_HOVER_RU: '§7Нажмите, чтобы ответить игроку\n§7На вопрос: §a%s'
 FRIEND_HOVER_YES_RU: 'Нажмите, чтобы начать дружить!'
 FRIEND_HOVER_NO_RU: 'Нажмите, чтобы послать на***'
 PARTY_HOVER_YES_RU: 'Нажмите, чтобы принять приглашение'
@@ -1417,8 +1414,6 @@ MODERATION_BROADCAST_EN: '§cМодерация §8| %s §7%s'
 INFO_BROADCAST_EN: '§7%s'
 ANSWER_BROADCAST_EN: '§cМодерация §8| %s §7%s игроку %s §8(§a%s§8) §7 -> §e%s'
 NEW_ASK_EN: '§cМодерация §8| %s §7задал вопрос -> §e%s'
-FRIEND_JOINED: '§6Друзья §8| §f%s %s §f%s в игру §7(нажмите сюда)'
-FRIEND_JOINED_HOVER: '§fНажмите, чтобы написать %s %s §fсообщение'
 
 PARTY_NEW_INVITE_EN: '   %s §fпригласил вас в группу'
 PARTY_NEW_GUILD_INVITE_EN: ' %s §fпригласил вас в группу гильдии'
@@ -1431,8 +1426,7 @@ GUILD_TITLE_EN: 'ГИЛЬДИИ'
 INVITE_ACCEPT_BUTTON_EN: '          §a§l[ПРИНЯТЬ]'
 INVITE_DECLINE_BUTTON_EN: ' §c§l[ОТКЛОНИТЬ]'
 
-ASK_HOVER_EN: '§7Нажмите, чтобы ответить игроку'
-ANS_HOVER_EN: '§7На вопрос: §a%s'
+ASK_HOVER_EN: '§7Нажмите, чтобы ответить игроку\n§7На вопрос: §a%s'
 FRIEND_HOVER_YES_EN: 'Нажмите, чтобы начать дружить!'
 FRIEND_HOVER_NO_EN: 'Нажмите, чтобы послать на***'
 PARTY_HOVER_YES_EN: 'Нажмите, чтобы принять приглашение'
@@ -1934,15 +1928,16 @@ REPORT_TWO_SENT_RU: '§cЖалобы §8| §fЖалоба отправлена. 
 
 ASK_DELAY_RU: '§cОшибка, отправить новый вопрос можно будет через %s'
 ASK_ALREADY_SENT_RU: '§cВы уже задавали вопрос, дождитесь ответа на него'
-ASK_SENT_RU:
- - '§6Вопросы §8| §fВаш вопрос отправлен всему персоналу онлайн'
- - '§f Если вы заметили, что с Вами общаются грубо, или ответивший'
- - '§f игрок не захочет Вам помочь, обратитесь в группу:'
- - '§e vk.com/filkworld§f, обсуждение - §eЖалобы на персонал сервера'
+ASK_SENT_RU: |-
+ §6Вопросы §8| §fВаш вопрос отправлен всему персоналу онлайн
+ §f Если вы заметили, что с Вами общаются грубо, или ответивший
+ §f игрок не захочет Вам помочь, обратитесь в группу:
+ §e vk.com/filkworld§f, обсуждение - §eЖалобы на персонал сервера
 ASK_LIMIT_RU: '§6Вопросы §8| §fВаш вопрос должен содержать не менее §e6§f и не более §c100§f символов'
 ASK_DELAY_NEW_RU: '§cОшибка, отправить новый вопрос можно будет через %s'
 
 ANS_SENT_RU: '§6Ответы §8| §fВы ответили игроку %s'
+ANS_HOVER_RU: '§7На вопрос: §a%s\n\n§fНажмите чтобы написать,\nсообщение игроку %s'
 ANS_MSG_RU: |-
  §6Вопросы §8| §fНа Ваш вопрос %s %s
   §a• §fСообщение: §e%s
@@ -2070,7 +2065,7 @@ TRAINING_SKIP_MSG_18_TITLE_RU: ''
 TRAINING_SKIP_MSG_18_SUBTITLE_RU: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE_RU: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
 TRAINING_SKIP_MSG_19_SUBTITLE_RU: '§fТогда просто оставьте все сообщеие §5разработчику§f- §5/Ktem <сообщение>'
-TRAINING_SKIP_MSG_20_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу : -('
+TRAINING_SKIP_MSG_20_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу :-('
 TRAINING_SKIP_MSG_20_SUBTITLE_EN: '§fЕсли вы хотите узнать все доступные команды, используйте §5/+TAB'
 
 TRAINING_STAGE_0_YES_RU: '§6Сервер §8| §fВы подтвердили язык §a%s'
@@ -2195,15 +2190,16 @@ REPORT_TWO_SENT_EN: '§cЖалобы §8| §fЖалоба отправлена. 
 
 ASK_DELAY_EN: '§cОшибка, отправить новый вопрос можно будет через %s'
 ASK_ALREADY_SENT_EN: '§cВы уже задавали вопрос, дождитесь ответа на него'
-ASK_SENT_EN:
- - '§6Вопросы §8| §fВаш вопрос отправлен всему персоналу онлайн'
- - '§f Если вы заметили, что с Вами общаются грубо, или ответивший'
- - '§f игрок не захочет Вам помочь, обратитесь в группу:'
- - '§e vk.com/filkworld§f, обсуждение - §eЖалобы на персонал сервера'
+ASK_SENT_EN: |-
+ §6Вопросы §8| §fВаш вопрос отправлен всему персоналу онлайн
+ §f Если вы заметили, что с Вами общаются грубо, или ответивший
+ §f игрок не захочет Вам помочь, обратитесь в группу:
+ §e vk.com/filkworld§f, обсуждение - §eЖалобы на персонал сервера
 ASK_LIMIT_EN: '§6Вопросы §8| §fВаш вопрос должен содержать не менее §e6§f и не более §c100§f символов'
 ASK_DELAY_NEW_EN: '§cОшибка, отправить новый вопрос можно будет через %s'
 
 ANS_SENT_EN: '§6Ответы §8| §fВы ответили игроку %s'
+ANS_HOVER_RU: '§7На вопрос: §a%s\n\n§fНажмите чтобы написать,\nсообщение игроку %s'
 ANS_MSG_EN: |-
  §6Вопросы §8| §fНа Ваш вопрос %s %s
   §a• §fСообщение: §e%s
@@ -2331,7 +2327,7 @@ TRAINING_SKIP_MSG_18_TITLE_EN: ''
 TRAINING_SKIP_MSG_18_SUBTITLE_EN: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE_EN: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
 TRAINING_SKIP_MSG_19_SUBTITLE_EN: '§fТогда просто оставьте все сообщеие §5разработчику§f- §5/Ktem <сообщение>'
-TRAINING_SKIP_MSG_20_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу : -('
+TRAINING_SKIP_MSG_20_TITLE_EN: '§fА на этом наше §6обучение§f подходит к концу :-('
 TRAINING_SKIP_MSG_20_SUBTITLE_EN: '§fЕсли вы хотите узнать все доступные команды, используйте §5/+TAB'
 
 TRAINING_STAGE_0_YES_EN: '§6Сервер §8| §fВы подтвердили язык §a%s'
@@ -2390,13 +2386,95 @@ BUY_HOVER_BROADCAST_EN: '§fНажмите сюда для\n§fперехода 
 
 PLAYER_IS_BANNED_EN: '§cОшибка #5, Пожалуйста сделайте скриншот, и сообщите vk.com/ktem_projects'
 
+ALERT_FORMAT_RU: '/alert <сообщение>'
+ALERT_FORMAT_EN: '/alert <message>'
+
+KTEMSPY_COMMAND_HELP_RU: |-
+ §6Spy §8| §fСписок команд:
+ §7/ktemspy on §f- включить слежку
+ §7/ktemspy off §f- отключить слежку
+SPY_ON_RU: '§6Spy §8| §fТеперь вы следите за всем'
+SPY_ALREADY_ON_RU: '§cУ вас уже включена слежка'
+SPY_OFF_RU: '§6Spy §8| §fВы больше не следите за командами'
+SPY_ALREADY_OFF_RU: '§cУ вас уже отключена слежка'
+
+
+HUBS_ALREADY_RU: '§cВы уже в главном лобби'
+
+REDIRECT_RU: '§aВы были телепортированы на %s'
+
+MSG_FORMAT_RU: '/msg <ник> <сообщение>'
+MSG_ME_RU: '§cВы не можете написать самому себе'
+MSG_IGNORE_RU: '§cДанный игрок добавил Вас в список игнорируемых'
+MSG_FRIENDS_ONLY_RU: '§cВ соответствии с Вашими настройками приватности Вы можете общаться только с друзьями'
+MSG_FRIENDS_RU: '§cОшибка, данный игрок принимает сообщения только от своих друзей'
+MSG_RU: '§6ЛС §8| §6Я §8-> %s §8| §7%s'
+MSG_ALERT_RU: '§6ЛС §8| %s §8-> §6Я §8| §7%s'
+MSG_DONATE_RU: '§6ЛС §8| §6Я §8-> %s §8| §f%s'
+MSG_ALERT_DONATE_RU: '§6ЛС §8| %s §8-> §6Я §8| §f%s'
+
+GLIST_RU: '§6Сервер §8| §fОбщий онлайн §a%s §f%s'
+GLIST_SERVER_RU: '§6Сервер §8| §fОнлайн указанных режимов §a%s §f%s'
+GLIST_NOT_FOUND_RU: '§cОшибка, указанные сервера не найдены'
+
+REPLY_FORMAT_RU: '/reply <сообщение>'
+REPLY_EMPTY_RU: '§cВам никто не писал'
+
+SEND_FORMAT_RU: '/send <сервер|player|all> <сервер2>'
+SEND_NOT_FOUND_RU: '§cОшибка, указанный сервер не существует'
+SEND_RU: '§6Сервер §8| §fВы телепортировали игроков'
+SEND_ALERT_RU: '§6Сервер §8| %s §fтелепортировал вас на сервер §c%s'
+
+
+KTEMSPY_COMMAND_HELP_EN: |-
+ §6Spy §8| §fСписок команд:
+ §7/ktemspy on §f- включить слежку
+ §7/ktemspy off §f- отключить слежку
+SPY_ON_EN: '§6Spy §8| §fТеперь вы следите за всем'
+SPY_ALREADY_ON_EN: '§cУ вас уже включена слежка'
+SPY_OFF_EN: '§6Spy §8| §fВы больше не следите за командами'
+SPY_ALREADY_OFF_EN: '§cУ вас уже отключена слежка'
+
+
+HUBS_ALREADY_EN: '§cВы уже в главном лобби'
+
+REDIRECT_EN: '§aВы были телепортированы на %s'
+
+MSG_FORMAT_EN: '/msg <ник> <сообщение>'
+MSG_ME_EN: '§cВы не можете написать самому себе'
+MSG_INFORE_EN: '§cДанный игрок добавил Вас в список игнорируемых'
+MSG_FRIENDS_ONLY_EN: '§cВ соответствии с Вашими настройками приватности Вы можете общаться только с друзьями'
+MSG_FRIENDS_EN: '§cОшибка, данный игрок принимает сообщения только от своих друзей'
+MSG_EN: '§6ЛС §8| §6Я §8-> %s §8| §7%s'
+MSG_ALERT_EN: '§6ЛС §8| %s §8-> §6Я §8| §7%s'
+MSG_DONATE_EN: '§6ЛС §8| §6Я §8-> %s §8| §f%s'
+MSG_ALERT_DONATE_EN: '§6ЛС §8| %s §8-> §6Я §8| §f%s'
+
+GLIST_EN: '§6Сервер §8| §fОбщий онлайн §a%s'
+GLIST_SERVER_EN: '§6Сервер §8| §fОнлайн указанных режимов §a%s'
+GLIST_NOT_FOUND_EN: '§cОшибка, указанные сервера не найдены'
+
+REPLY_FORMAT_EN: '/reply <сообщение>'
+REPLY_EMPTY_EN: '§cВам никто не писал'
+
+SEND_FORMAT_EN: '/send <сервер|player|all> <сервер2>'
+SEND_NOT_FOUND_EN: '§cОшибка, указанный сервер не существует'
+SEND_EN: '§6Сервер §8| §fВы телепортировали игроков'
+SEND_ALERT_EN: '§6Сервер §8| %s §fтелепортировал вас на сервер §c%s'
+
+
+GUI_BACK_RU: '§cНазад'
+GUI_BACK_LORE_RU: '§7Нажмите, чтобы вернуться на шаг назад'
+
+GUI_BACK_EN: '§cBack'
+GUI_BACK_LORE_EN: '§7Click, to return one step back'
+
 PAGR_ARROW_SPECTRAL_RU: '§7(Spectral arrow)'
 PAGE_ARROW_NEXT_RU: '§aСледующая страница'
 PAGE_ARROW_PREVIOUS_RU: '§aПредыдущая страница'
 PAGE_ARROW_LORE_RU:
  - '§7Нажмите для перехода'
  - '§7на %s страницу'
-
 
 ANS_GUI_NAME_RU: '§eВопросы игроков'
 ANS_GUI_MAIN_RU: '§0Вопросы игроков | %s'
